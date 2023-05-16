@@ -24,18 +24,32 @@
         <main>
             <section class="pictures">
                 <article>
-                    <h1>Freddy World Services LLC Security Patrol</h1>
+                    <h1>Freddy World Services is a leading provider of comprehensive security solutions for businesses of all sizes. With years of experience in the industry, we offer a wide range of security services, including access control, surveillance, alarm systems, and more.</h1>
                     <section class="D">
                     <img src="img/shutterstock_717789595.jpg">
-                    <button>Contact</button>
-                    <p>Freddy World Services LLC will remove worries for clients who require safety and protection for their buildings, facilities and events by providing professional, trained agents to execute the necessary structure for their customers and establishment.
-                    Freddy World Services LLC is perfectly positioned to provide trained security personnel who can meet the needs and goals. An adequate numbers of security personnel are needed to protect the Building and property within, 24 hours a day, seven days a week. Additional security personnel are needed on occasion to handle large gatherings and other events held. </p>
-                </section>
+            <section class="Description">
+                <p></p>
+
+            </section>
+                <button>Contact</button>
+                <div class="container">
+                    <form onsubmit="SendEmail(); reset(); return false;">
+                        <h3>GET IN TOUCH</h3>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Email id" required>
+                        <input type="text" id="phone" placeholder="Phone no." required>
+                        <textarea id="message" rows="4" placeholder="How Can WE Help You?"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+        
                 </article>
             </section>
         </main>
         
     </header>
-    
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
